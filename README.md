@@ -6,7 +6,7 @@ My typical use case is to have a portable environment where, for instance, my co
 
 ## Nice to have's:
 * I would highly suggest adding FreeCommander or Explorer++ (along with its "environment shortcut" as explained below) to your environment, to make it easy to explore files and double-clicking thing under this environment.
-* I have added `drag-and-drop-here.bat` to drag-and-drop executables, so that they are executed under this portable environment.
+* I have added a script `drag-and-drop-here.bat` in order to drag-and-drop executables for them to be run under this portable environment.
 
 ## How to use this: 
 1. Copy the content of this repo somewhere, lets call this base directory `%PORTABLEHOME%`.
