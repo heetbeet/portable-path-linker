@@ -5,7 +5,7 @@ Scripts to setup a portable environment with a different `%USERNAME%` and user l
 My typical use case is to have a portable environment where, for instance, my compiler and build-tools can all see each other, TexStudio can find the latex compilers, and git just works and is available everywhere. This is basically just a wrapper to setup the environment variables correctly before running an application. It is still best practice to use portable app versions of your programs (if available), since they usually don't tamper with the registry.
 
 ## Nice to have's:
-* I would highly suggest adding FreeCommander or Explorer++ (along with its `environment shortcut` as explained below) to your environment, to make it easy to explore files and double-clicking thing under this environment.
+* I would highly suggest adding FreeCommander or Explorer++ (along with its "environment shortcut" as explained below) to your environment, to make it easy to explore files and double-clicking thing under this environment.
 * I have added `drag-and-drop-here.bat` to drag-and-drop executables, so that they are executed under this portable environment.
 
 ## How to use this: 
