@@ -1,7 +1,7 @@
 # Portable Path Linker
-Scripts to setup a portable environment with a virtual windows %USERNAME% and %PATH%. 
+Scripts to setup a portable environment with a different %USERNAME% and user locations, as well as added entries to %PATH%. 
 
-My typical use case is to have a portable environment where, for instance, my build-tools can see each other, TexStudio can see the latex compilers, python can call inkscape without knowing where the binaries are located, and git etc. just works. This is basically just a wrapper to setup my environment correctly when I run an app. Even with this wrapper, it is best to still try to use portable app versions, since this doesn't impliment any registry hacks.
+My typical use case is to have a portable environment where, for instance, my compiler and build-tools can all see each other, TexStudio can find the latex compilers, and git just works and is available everywhere. This is basically just a wrapper to setup the environment variables correctly before running an application. It is still best practice to use portable app versions of your programs (if available), since they usually don't tamper with the registry.
 
 How to use this: 
 1. Copy the content of this repo somewhere, lets call this base directory `%PORTABLEHOME%`.
