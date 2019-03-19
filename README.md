@@ -1,5 +1,5 @@
 # Portable Path Linker
-Scripts to setup a portable environment with a different %USERNAME% and user locations, as well as portable entries to %PATH%. 
+Scripts to setup a portable environment with a different `%USERNAME%` and user locations, as well as portable entries to `%PATH%`. 
 
 ## Why though?
 My typical use case is to have a portable environment where, for instance, my compiler and build-tools can all see each other, TexStudio can find the latex compilers, and git just works and is available everywhere. This is basically just a wrapper to setup the environment variables correctly before running an application. It is still best practice to use portable app versions of your programs (if available), since they usually don't tamper with the registry.
