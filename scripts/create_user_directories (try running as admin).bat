@@ -4,6 +4,9 @@ CALL "%~dp0env.bat"
 
 mkdir "%PORTABLEHOME%\users"
 mkdir "%HOMEPATH%"
+mkdir "%HOMEPATH%"\AppData
+mkdir "%HOMEPATH%"\AppData\Local
+mkdir "%HOMEPATH%"\AppData\Local\Temp
 
 mkdir "%PORTABLEHOME%\Applications"
 mkdir "%PORTABLEHOME%\Documents"
