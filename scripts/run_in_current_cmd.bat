@@ -22,7 +22,7 @@ REM ***********************************************
     set OLDPATH=%PATH%
     cd /d "%PORTABLEHOME%\applications"
     CALL :READPATHSFROMCURDIR APPATHS
-    set PATH=%PORTPATH%;%APPATHS%;%ORIGINALPATH%
+    set PATH=%PORTPATH%;%APPATHS%;%OLDPATH%
 
     REM Enforce that %PORTABLEHOME% is not in %PATH%, otherwise 
     REM we end up with a nonterminating dependancy loop
